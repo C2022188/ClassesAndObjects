@@ -4,6 +4,7 @@
  */
 package classesandobjects;
 
+import shapes.Rectangle;
 import shapes.Triangle;
 
 /**
@@ -46,6 +47,13 @@ public class ClassesAndObjects {
         
         Person sam = new Person ();
         sam.favTriangle = tril5;
+        
+        
+        Rectangle rect1 = new Rectangle();
+        rect1.getArea();
+        System.out.println(rect1.getArea());
+        
+        //  Shape shape1 = new Shape();
         
         
     }
