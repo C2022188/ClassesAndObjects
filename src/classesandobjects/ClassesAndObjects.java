@@ -4,6 +4,8 @@
  */
 package classesandobjects;
 
+import shapes.Triangle;
+
 /**
  *
  * @author caroo
@@ -41,6 +43,11 @@ public class ClassesAndObjects {
         sideLenghts [10] = 3;
         sideLenghts [13] = 3;
         sideLenghts [16] = 3;
+        
+        Person sam = new Person ();
+        sam.favTriangle = tril5;
+        
+        
     }
     
 }
